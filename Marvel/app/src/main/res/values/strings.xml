@@ -2,7 +2,7 @@
     <string name="app_name">Marvel</string>
     <string name="detalhe_name">Detalhes</string>
     <string name="informacoes_name">Marvel Studios</string>
-    <string name="texto_home">"Olá addNomeDoUsuarioLogado esses são alguns dos personagens da Marvel</string>
+    <string name="texto_home">"Olá, %s - %s, esses são alguns dos personagens da Marvel</string>
     <string name="lista_nome_heroi">Nome do heroi</string>
     <string name="texto_detalhe_descricao">Rogue é uma mutante Nível Ômega, personagem de histórias em quadrinhos da editora Marvel Comics. Vampira é integrante de algumas equipes dos X-Men e dos Vingadores</string>
     <string name="texto_informacoes_marvel">Informações sobre a Marvel</string>
@@ -10,4 +10,11 @@
     <string name="filmes_texto">AQUI PODERIA TER UM RECYCLERVIEW COM ALGUNS FILMES DA MARVEL!</string>
     <string name="hqs_texto">AQUI PODERIA TER UM RECYCLERVIEW COM ALGUNS HQS DA MARVEL!</string>
     <string name="description_image_splash">Imagem com os personagens da Marvel</string>
+    <string name="email_register">e-mail</string>
+    <string name="pass">Senha</string>
+    <string name="name_register">Nome</string>
+    <string name="button_register">Registrar conta</string>
+    <string name="button_login">Login</string>
+    <string name="registre_se_aqui">Crie sua conta agora</string>
+    <string name="sair">Sair</string>
 </resources>

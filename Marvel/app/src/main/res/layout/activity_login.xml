@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.view.LoginActivity">
+
+    <EditText
+        android:id="@+id/etNameLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_16"
+        android:hint="@string/name_register"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etPasswordLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16"
+        android:hint="@string/pass"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="@+id/etNameLogin"
+        app:layout_constraintStart_toStartOf="@+id/etNameLogin"
+        app:layout_constraintTop_toBottomOf="@+id/etNameLogin"
+        android:autofillHints="password" />
+
+    <TextView
+        android:id="@+id/tvRegisterNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:selectAllOnFocus="true"
+        android:layout_marginTop="@dimen/dimen_8"
+        android:text="@string/registre_se_aqui"
+        app:layout_constraintEnd_toEndOf="@+id/etPasswordLogin"
+        app:layout_constraintTop_toBottomOf="@+id/etPasswordLogin" />
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="0dp"
+        android:layout_marginTop="@dimen/dimen_8"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@color/red_500"
+        android:textColor="@color/white"
+        android:text="@string/button_login"
+        app:layout_constraintEnd_toEndOf="@+id/etPasswordLogin"
+        app:layout_constraintStart_toStartOf="@+id/etPasswordLogin"
+        app:layout_constraintTop_toBottomOf="@+id/tvRegisterNow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "731432101793",
+    "project_id": "end-game-e4553",
+    "storage_bucket": "end-game-e4553.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731432101793:android:763f301baff682231d8de0",
+        "android_client_info": {
+          "package_name": "br.com.zup.marvel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731432101793-0htdppi3po9ji5c6fc9sfko12ekj2q1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDALG1kKZf9YWrSPnseWVfZx_zxygxIVDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731432101793-0htdppi3po9ji5c6fc9sfko12ekj2q1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
