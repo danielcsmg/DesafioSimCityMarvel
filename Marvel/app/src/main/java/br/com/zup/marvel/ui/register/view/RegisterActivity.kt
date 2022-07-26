@@ -2,6 +2,7 @@ package br.com.zup.marvel.ui.register.view
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import br.com.zup.marvel.CREATE_USER_SUCCESS
@@ -44,11 +45,11 @@ class RegisterActivity : AppCompatActivity() {
     private fun initObserver() {
         viewModel.registerState.observe(this){
             goToHome()
-            Snackbar.make(binding.root, CREATE_USER_SUCCESS, Snackbar.LENGTH_SHORT).show()
+            Toast.makeText(this, CREATE_USER_SUCCESS, Toast.LENGTH_SHORT).show()
         }
 
         viewModel.errorState.observe(this) {
-            Snackbar.make(binding.root, it, Snackbar.LENGTH_SHORT).show()
+            Toast.makeText(this, it, Toast.LENGTH_SHORT).show()
         }
     }
 
